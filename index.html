@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+      <h1>FS</h1>
+      <ul class="navigation">
+        <li>
+          <a href="#tickets" class="nav-link">Tickets</a>
+        </li>
+        <li>
+          <a href="#movies" class="nav-link">Movies & Trailers</a>
+        </li>
+        <li>
+          <a href="#news" class="nav-link">News</a>
+        </li>
+        <li>
+          <a href="#member" class="nav-link">Member</a>
+        </li>
+        <li>
+          <a href="#gift" class="nav-link">Gift Card</a>
+        </li>
+        <li>
+          <a href="#corporrate" class="nav-link">Corporate Tickets</a>
+        </li>
+        <li>
+          <a href="#meeting" class="nav-link">Meetings & Events</a>
+        </li>
+        <li>
+          <a href="#city" class="nav-link">Stockholm</a>
+        </li>
+        <li>
+          <a href="#logIn" class="nav-link">Log in</a>
+        </li>
+      </ul>
+    </nav>
+
+    <header>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/hXzcyx9V0xw?si=fXBDRBO1btCW_rRe"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <div>
+        <img src="./Images/Elemental_Main.jpg" alt="elemental_8" width="300" />
+      </div>
+      <div>
+        <h1>Elemental</h1>
+        <p>Animated, Adventure, Comedy, Family</p>
+        <p>1h 51min | No age restrictions</p>
+      </div>
+      <div>
+        <button class="tickets">Tickets</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="top-section">
+        <div>
+          The film journeys alongside an unlikely pair, Ember and Wade, in a
+          city where fire-, water-, land- and air-residents live together. The
+          fiery young woman and the go-with-the-flow guy are about to discover
+          something elemental: how much they actually have in common.
+        </div>
+        <div>
+          Director:
+          <p>Peter Sohn</p>
+        </div>
+        <div>
+          Titel:
+          <p>Elemental</p>
+        </div>
+        <div>
+          Language:
+          <p>English</p>
+        </div>
+        <div>
+          Premier:
+          <p>7th July 2023</p>
+        </div>
+      </section>
+
+      <section class="image-scroll-section">
+        <img src="./Images/Elemental_1.jpg" alt="elemental_1" width="300" />
+        <img src="./Images/Elemental_2.jpg" alt="elemental_2" width="300" />
+        <img src="./Images/Elemental_3.jpg" alt="elemental_3" width="300" />
+        <img src="./Images/Elemental_4.jpg" alt="elemental_4" width="300" />
+        <img src="./Images/Elemental_5.jpg" alt="elemental_5" width="300" />
+        <img src="./Images/Elemental_6.jpg" alt="elemental_6" width="300" />
+        <img src="./Images/Elemental_7.jpg" alt="elemental_7" width="300" />
+        <img src="./Images/Elemental_8.jpg" alt="elemental_8" width="300" />
+      </section>
+
+      <section class="tickets-section">
+        <div>
+          <h2>Buy tickets</h2>
+        </div>
+        <div class="buy-tickets" id="buy-tickets">
+          <label class="anchor">Choose city</label>
+          <ul class="items">
+            <input type="search" placeholder="search" />
+            <li><input type="checkbox" value="Stockholm" />Stockholm</li>
+            <li><input type="checkbox" value="Gothenburg" />Gothenburg</li>
+            <li><input type="checkbox" value="Malmö" />Malmö</li>
+            <li><input type="checkbox" value="Alingsås" />Alingsås</li>
+            <li><input type="checkbox" value="Borlänge" />Borlänge</li>
+            <li><input type="checkbox" value="Borås" />Borås</li>
+          </ul>
+
+          <div class="choose-date" id="choose-date">
+            <label>Choose date</label>
+            <select name="date" id="date">
+              <option value="date">12/10 - today</option>
+              <option value="date">13/10 - tomorrow</option>
+              <option value="date">14/10 - saturday</option>
+              <option value="date">15/10 - sunday</option>
+              <option value="date">16/10 - monday</option>
+              <option value="date">17/10 - tuesday</option>
+            </select>
+          </div>
+
+          <div class="dropdown-search-theater" id="dropdown-search-theater">
+            <label class="anchor">Choose theater</label>
+            <ul class="items">
+              <input type="search" placeholder="search" />
+              <li><input type="checkbox" />All theaters</li>
+              <li><input type="checkbox" />Heron City</li>
+              <li><input type="checkbox" />Kista</li>
+              <li><input type="checkbox" />Scandinavia</li>
+              <li><input type="checkbox" />Sergel</li>
+              <li><input type="checkbox" />Söder</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="footer-section">
+        <div class="guests">
+          <h2>Guests</h2>
+          <a href="#">Q&A</a>
+          <a href="#">Movie panel</a>
+          <a href="#">Social media</a>
+          <a href="#">FS app</a>
+        </div>
+        <div class="members">
+          <h2>Members</h2>
+          <a href="#">Log In</a>
+          <a href="#">Become member</a>
+          <a href="#">About membership</a>
+        </div>
+        <div class="corporate">
+          <h2>Corporate</h2>
+          <a href="#">About FS</a>
+          <a href="#">Press</a>
+          <a href="#">Career</a>
+        </div>
+        <div class="contact">
+          <h2>Help & contact</h2>
+          <a href="#">Customer service</a>
+          <a href="#">GDPR policy</a>
+          <a href="#">Cookie message</a>
+        </div>
+      </section>
+      <div class="cred">
+        <p>This page design is inspired by filmstaden.se</p>
+        <p>This page is only used as part of a work-portfolio</p>
+        <p>Coded by Farah Alhaddad and open-sourced on Github</p>
+      </div>
+    </footer>
+  </body>
+</html>
