@@ -82,11 +82,15 @@ nav ul li {
   padding: 0 70px;
 }
 
+.trailer {
+
+}
+
 .header-content {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  padding: 50px 70px;
+  align-items: left;
+  padding: 50px 0;
   gap: 30px;
 }
 
@@ -98,7 +102,7 @@ nav ul li {
 
 .header-content h1 {
   font-size: 45px;
-  margin-top: 355px;
+  margin-top: 172px;
 }
 
 .header-content button {
@@ -110,8 +114,7 @@ nav ul li {
   background-color: var(--detail-bg-color);
   border: none;
   border-radius: 2px;
-  margin-top: 410px;
-  margin-left: 50px;
+  margin-top: 20px;
 }
 
 .header-content button:hover {
@@ -202,8 +205,6 @@ div.scroll-container img {
   font-size: 12px;
   text-align: center;
   padding: 50px 70px;
-  margin-bottom: 40px;
-  background-color: #0e0f0f;
 }
 
 @media screen and (max-width: 720px) {
